@@ -1,0 +1,89 @@
+/**Footer Property**/
+.social_icon button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    
+    text-align: center;
+    color: white;
+    box-shadow: 0px 3px 3px #E62117;
+    margin-left: 5px;
+    margin-top: 5px;
+    transition: all 0.50s linear;
+}
+
+#facebook{
+    background-color: #3C599B;
+    border: 3px solid white;
+}
+#twitter{
+    background-color: #00A0D0;
+    border: 3px solid white;
+}
+#linkedin{
+    background-color: #1D87BE;
+    border: 3px solid white;
+}
+#youtube{
+    background-color: #C4302C;
+    border: 3px solid white;
+}
+#gplus{
+    background-color: #DD4B39;
+    border: 3px solid white;
+}#instagrsm{
+    background-color: #E32E7F;
+    border: 3px solid white;
+}
+#dribbble{
+    background-color: #D35586;
+    border: 3px solid white;
+}
+#vk{
+    background-color: #597DA3;
+    border: 3px solid white;
+}
+#facebook:hover{
+    background-color: white;
+    border: 3px solid #3C599B;
+    color: #3C599B;
+}
+#twitter:hover{
+    background-color: white;
+    border: 3px solid #00A0D0;
+    color: #00A0D0;
+}
+#linkedin:hover{
+    background-color: white;
+    border: 3px solid #1D87BE;
+    color: #1D87BE;
+}
+#youtube:hover{
+    background-color: white;
+    border: 3px solid #C4302C;
+    color: #C4302C;
+}
+#gplus:hover{
+    background-color: white;
+    border: 3px solid #DD4B39;
+    color: #DD4B39;
+}
+#instagrsm:hover{
+    background-color: white;
+    border: 3px solid #E32E7F;
+    color: #E32E7F;
+}
+#dribbble:hover{
+    background-color: white;
+    border: 3px solid #D35586;
+    color: #D35586;
+}
+#vk:hover{
+    background-color: white;
+    border: 3px solid #597DA3;
+    color: #597DA3;
+}
+
+
+/**Footer end**/
