@@ -19,8 +19,68 @@ body{
   /* Set a background color that will be displayed
      while the background image is loading */
 }
+/**Header Option**/
+.logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid #F8F8F8;
+    margin: 0 auto;
+}
+.logo p{
+    margin-right: 0px;
+    color: white;
+    font-size: 15px;
+}
+.header_section{
+    background-color: #5D5F60;
+    padding: 8px;
+    margin-bottom: 40px;
+}
 
 
+/** Navbar Start **/
+.menu ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+/** Navbar End **/
+/**Header End**/
+
+
+/**Carosul Start **/
+.NPcontrol{
+    text-align: center;
+    background-color: #5D5F60;
+    font-size: 25px;
+}
+
+.content_section{
+    margin-bottom: 20px;
+}
+
+/**Carosul End **/
+li{
+    float: left;
+    padding: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+li:hover{
+    transform: rotate(10deg);
+    color: red;
+    background-color: green;
+    transition: .6s;
+    border: 2px solid white;
+    border-radius: 20px
+    
+}
 
 /**Footer Property**/
 .social_icon button{
@@ -108,6 +168,44 @@ body{
     border: 3px solid #597DA3;
     color: #597DA3;
 }
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #5D5F60;
+  text-align: center;
+}
+.social_Header{
+    border-bottom: 2px solid #FBB03B;
+    color: white;
+}
 
+.developer_option{
+    color: white;
+    font-size: 15px;
+}
 
+#skype{
+    background-color: #597DA3;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+#skype:hover{
+    background-color: white;
+    border: 3px solid #597DA3;
+    color: #597DA3;
+}
+.footer_section a{
+    font-size: 15px;
+    color: #0c0 ;
+}
+.footer_section a:hover{
+    color: #c00;
+}
+.Copy_right{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
 /**Footer end**/
